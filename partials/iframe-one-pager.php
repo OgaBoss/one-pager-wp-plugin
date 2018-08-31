@@ -14,7 +14,7 @@ function i_frame_one_pager() {
             </nav>
             <div class="content-wrap">
                 <section id="section-flip-1">
-                    <iframe src="http://login.betasms.com.ng/ordersms/?site=7e22ec46-93f1-11e8-9354-beee55e65685" height="800" width="400"></iframe>
+                    <iframe src="https://dominate.betasms.com.ng/ordersms/?site=4118e99a-a012-11e8-910d-beee55e65685" height="800" width="400"></iframe>
                 </section>
                 <section id="section-flip-2"><p>coming soon</p></section>
                 <section id="section-flip-3"><p>coming soon</p></section>
