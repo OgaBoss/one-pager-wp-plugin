@@ -23,13 +23,10 @@ function i_frame_one_pager() {
             </div><!-- /content -->
         </div><!-- /tabs -->
     </section>
-    <script src=<?= plugins_url('betasms-one-pager/js/modernizr.custom.js')?>></script>
-    <script src=<?= plugins_url('betasms-one-pager/js/cbpFWTabs.js')?>></script>
     <script>
         (function() {
 
             [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
-                console.log(el);
                 new CBPFWTabs( el );
             });
 

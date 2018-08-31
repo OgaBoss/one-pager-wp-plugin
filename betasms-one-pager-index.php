@@ -27,12 +27,17 @@ function add_up_styles() {
     wp_register_style( 'tabstyles',  plugins_url('css/tabstyles.css', __FILE__));
     wp_register_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css', array(), '4.2.0' );
 
+    wp_register_script( 'tabsJS', plugins_url('js/cbpFWTabs.js', __FILE__));
+    wp_register_script( 'modernizr', plugins_url('js/modernizr.custom.js', __FILE__));
+
     wp_enqueue_style( 'fontawesome' );
     wp_enqueue_style('normalize');
     wp_enqueue_style('default');
     wp_enqueue_style('tabs');
     wp_enqueue_style('tabstyles');
 
+    wp_enqueue_script('tabsJS');
+    wp_enqueue_script('modernizr');
 }
 
 function add_up_scripts() {}
